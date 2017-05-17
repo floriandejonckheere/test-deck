@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title><%= deck.title %></title>
+  <title><%= name %></title>
 
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -11,6 +11,6 @@
   <script src="scripts/shower.min.js"></script>
 </head>
 <body class="shower list">
-  <%= deck.content %>
+<%= content.indent(2) %>
 </body>
 </html>
